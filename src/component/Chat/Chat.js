@@ -9,6 +9,7 @@ import closeIcon from '../../images/closeIcon.png'
 
 let socket;
 
+// const ENDPOINT = "http://localhost:4500/"
 const ENDPOINT = "https://cchat-server.vercel.app/"
 
 function Chat() {
@@ -67,7 +68,7 @@ function Chat() {
     <div className='chatPage'>
         <div className='chatContainer'>
             <div className='header'>
-                <h2>C Chat</h2>
+                <h2>Chat Application</h2>
                 <a href='/'><img src={closeIcon} alt="Close"/></a>
             </div>
             <ReactScrollToBottom className='chatBox'>
